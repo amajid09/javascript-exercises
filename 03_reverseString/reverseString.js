@@ -1,4 +1,5 @@
-const reverseString = function() {
+const reverseString = function(normalString) {
+    return normalString.split("").reverse().join("");
 
 };
 
